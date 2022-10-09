@@ -1,42 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom";
-// import {image} from 'src/assests/logo1.png';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div
       style={{
-        position: "relative",
+        position: 'relative',
         bottom: 0,
         right: 0,
         left: 0,
-        backgroundColor: "rgb(128,0,0",
+        backgroundColor: 'rgb(128,0,0',
       }}
     >
       <footer className="text-gray-600 body-font">
         <div className="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
           <Link className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-      </svg> */}
-            {/* <img src={image} className="w-10 h-10 rounded-circle bg-white" alt="" srcset="" /> */}
             <span className="ml-3 text-xl text-white hover:text-blue-800">
               UIET DOCS
             </span>
           </Link>
-          <p className="text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            Copyright © UIET Docs —
-            <Link
-              href="https://twitter.com/knyttneve"
-              className="text-white ml-1 "
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              @ Dheeraj
-            </Link>
+          <p className="text-sm text-white sm:ml-3 sm:pl-2 sm:border-l-2 sm:border-gray-200 mt-1">
+            Copyright © UIET Docs
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-8 justify-center sm:justify-start">
-            <Link className="text-blue-500" style={{ color: "white" }}>
+            <Link className="text-blue-500" style={{ color: 'white' }}>
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -60,7 +47,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </Link>
-            <Link className="ml-3 text-red-500" style={{ color: "white" }}>
+            <Link className="ml-3 text-red-500" style={{ color: 'white' }}>
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -74,7 +61,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               </svg>
             </Link>
-            <Link className="ml-3 text-blue-500  " style={{ color: "white" }}>
+            <Link className="ml-3 text-blue-500  " style={{ color: 'white' }}>
               <svg
                 fill="currentColor"
                 stroke="currentColor"
