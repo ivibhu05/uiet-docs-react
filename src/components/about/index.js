@@ -1,15 +1,25 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const About = () => {
+export default function About() {
   return (
     <>
-      <div>
-        <button
-          type="button"
-          className="inline-block bg-blue-500 px-6 py-2.5  text-white-100 font-medium text-xs leading-tight uppercase rounded hover:bg-red-800 focus:text-blue-700 focus:bg-gray-100 focus:outline-none focus:ring-0 active:bg-gray-200 active:text-blue-800 transition duration-300 ease-in-out"
+      <div
+        className="mt-8 lg:flex sm:block sm:w-1/2 sm:mx-auto lg:mx-0"
+        role="button"
+      >
+        <Link
+          className="flex items-center justify-center px-8 py-3 font-medium rounded-md text-white bg-green-700 shadow uppercase hover:bg-green-800 hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2 focus:ring-green-600 ring-offset-2 outline-none focus:bg-green-800 focus:shadow-lg active:bg-green-900"
+          href="#"
         >
-          HSS-S101
-        </button>
+          See the collection
+        </Link>
+        <Link
+          className="flex items-center justify-center px-8 py-3 lg:ml-4 sm:ml-0 sm:mt-2.5 lg:mt-0 font-medium rounded-md text-green-700 bg-white shadow uppercase hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2 focus:ring-green-600 ring-offset-2 outline-none focus:shadow-lg"
+          href="#"
+        >
+          Learn more
+        </Link>
       </div>
 
       <section className="text-gray-600 body-font">
@@ -156,6 +166,4 @@ const About = () => {
       </section>
     </>
   );
-};
-
-export default About;
+}
