@@ -28,6 +28,7 @@ const Contact = () => {
               <p className="mb-4 leading-relaxed">Owner & Developer</p>
               <div className="flex justify-center">
                 <a
+]
                   href="https://www.linkedin.com/in/dheerajpandey1/"
                   target="_blank"
                   rel="noreferrer"
@@ -39,6 +40,7 @@ const Contact = () => {
                     Connect
                   </button>
                 </a>
+
                 <a
                   href="https://dcpandey1.github.io/Portfolio/"
                   target="_blank"
