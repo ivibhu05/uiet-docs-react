@@ -6,6 +6,7 @@ import Header from '../components/header';
 import Contact from '../components/contact';
 import Contribute from '../components/contribute';
 import Clubs from '../components/clubs';
+import Home from '../components/home';
 
 const Routes = () => {
   return (
@@ -13,6 +14,9 @@ const Routes = () => {
       <Router>
         <Header />
         <Switch>
+          <Route exact path="/home">
+            <Home/>
+          </Route>
           <Route exact path="/about">
             <About />
           </Route>
