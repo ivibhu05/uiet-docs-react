@@ -1,14 +1,13 @@
-import React from "react";
-// import { Link } from 'react-router-dom'
-// import team from 'src/assests/team.jpg'
-import Team1 from "../../assets/team1.jpg";
-import Team2 from "../../assets/team.jpg";
-import Team3 from "../../assets/groupPic.jpg";
+import React from 'react';
+import Team1 from '../../assets/team1.jpg';
+import Team2 from '../../assets/team.jpg';
+import Team3 from '../../assets/groupPic.jpg';
+import { WINNER } from '../../utils/contest-winner';
 
 const Clubs = () => {
   return (
     <div>
-      <h1 className="py-10 sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">
+      <h1 className="py-2 sm:text-3xl text-2xl font-medium title-font text-gray-900 text-center">
         Evolution (UIET Coding Club)
       </h1>
       <section className="text-gray-600 body-font">
@@ -18,35 +17,29 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-400 h-400 object-cover object-center border-5 border-grey-100 border-solid"
+                  className="absolute inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team1}
                 />
-                
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-900 h-900 object-cover object-center border-5 border-grey-100 border-solid"
+                  className="absolute inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team2}
                 />
-                
               </div>
             </div>
             <div className="lg:w-1/3 sm:w-1/2 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-900 object-cover object-center border-5 border-grey-100 border-solid"
+                  className="absolute inset-0 object-fill h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team3}
                 />
-                
               </div>
             </div>
-            
-            
-            
           </div>
         </div>
       </section>
@@ -54,7 +47,7 @@ const Clubs = () => {
       <section className="antialiased bg-gray-100 text-gray-600 h-screen px-4 ml-100">
         <div className="mt-1 flex flex-col justify-center h-full ">
           {/* Table */}
-          <div className=" w-full max-w-2xl mx-auto bg-white shadow-lg rounded-sm border border-gray-200">
+          <div className=" w-full max-w-2xl mx-auto py-12 bg-white shadow-lg rounded-sm border border-gray-200">
             <header className="px-5 py-4 border-b border-gray-100">
               <h2 className="font-semibold text-gray-800 text-3xl text-center">
                 Previous Winners
@@ -82,46 +75,34 @@ const Clubs = () => {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-sm divide-y divide-gray-100">
-                    <tr>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="flex items-center">
-                          <div className="font-medium text-gray-800 text-xl">
-                            UIET CODEZEN 1.0
+                  {WINNER?.map(({ contest, link, name, batch }) => (
+                    <tbody className="text-sm divide-y divide-gray-100">
+                      <tr>
+                        <td className="p-2 whitespace-nowrap">
+                          <div className="flex items-center">
+                            <a
+                              className="hover:underline md:underline font-medium text-gray-800 text-xl"
+                              href={link}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {contest}
+                            </a>
                           </div>
-                        </div>
-                      </td>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="font-medium text-gray-800 text-xl">
-                          Alex Shatov
-                        </div>
-                      </td>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="text-left font-medium text-green-500 text-xl">
-                          2k19
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="flex items-center">
+                        </td>
+                        <td className="p-2 whitespace-nowrap">
                           <div className="font-medium text-gray-800 text-xl">
-                            UIET CODEZEN 1.0
+                            {name}
                           </div>
-                        </div>
-                      </td>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="font-medium text-gray-800 text-xl">
-                          Alex Shatov
-                        </div>
-                      </td>
-                      <td className="p-2 whitespace-nowrap">
-                        <div className="text-left font-medium text-green-500 text-xl">
-                          2k19
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
+                        </td>
+                        <td className="p-2 whitespace-nowrap">
+                          <div className="text-left font-medium text-green-500 text-xl">
+                            {batch}
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  ))}
                 </table>
               </div>
             </div>
