@@ -1,6 +1,6 @@
 import React from "react";
 // import image1 from '../assests/Preeti.png'
-import Mohit from "../../assets/mohits.png";
+
 import Vibhanshu from "../../assets/vibhu_uiet.jpg";
 import Dheeraj from "../../assets/dp.jpg";
 
@@ -37,8 +37,8 @@ const Contact = () => {
               </p>
               <div className="flex justify-center">
                 <a
-                  href="https://www.linkedin.com/in/dheerajpandey1/"
-                  target="_blank"
+                  href="https://www.linkedin.com/in/dheerajpandey1/" rel="noreferrer"
+                  target="_blank" 
                 >
                   <button
                     
@@ -48,7 +48,7 @@ const Contact = () => {
                     Connect
                   </button>
                 </a>
-                <a href="https://dcpandey1.github.io/Portfolio/" target="_blank">
+                <a href="https://dcpandey1.github.io/Portfolio/" rel="noreferrer" target="_blank" >
                   <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     Portfolio
                   </button>
@@ -88,7 +88,7 @@ const Contact = () => {
               <div className="flex justify-center">
               <a
                   href="https://www.linkedin.com/in/ivibhu05/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <button
                    
@@ -98,7 +98,7 @@ const Contact = () => {
                     Connect
                   </button>
                 </a>
-                <a href="https://ivibhu05.github.io/Portfolio/" target="_blank">
+                <a href="https://ivibhu05.github.io/Portfolio/" target="_blank" rel="noreferrer">
                   <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
                     Portfolio
                   </button>
