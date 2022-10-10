@@ -85,22 +85,32 @@ const Home = () => {
       </div>
 
       <div>
-        
-        
         <div
           id="modal"
           class=" rounded pb-8 container mx-auto flex justify-center items-center px-4 md:px-0 py-15"
         >
-          <div class="bg-white dark:bg-gray-800 px-3 md:px-4 py-2 flex flex-col justify-center items-center">
-            
-            <h1 class="mt-8 md:mt-12 text-3xl lg:text-4xl font-semibold leading-10 text-center text-gray-800 text-center md:w-9/12 lg:w-7/12 dark:text-white">
-              Welcome to the UIET DOCS
-            </h1>
-            <p class="mt-4  text-gray-600 md:w-9/12 lg:w-7/12 dark:text-white">
-            UIET Kanpur, UNIVERSITY INSTITUTE OF ENGINEERING AND TECHNOLOGY, a department of CSJM UNIVERSITY has prospered by leaps and bounds over the years achieving great academic heights besides foraying into the top 50 finest engineering colleges of the country. Having been taught by one of the best faculties of the region, the students of UIET Kanpur have been empowered and groomed to take on the rigorous challenges in their upcoming lives. The sincere efforts made by our glorious alumni in the progress of the institute has further strengthened its fundamentals in a short span of time. The atmosphere of creativity and the enterprising attitude of the students has promoted a spirit of innovation. The recent achievements of the students in myriad fields including software, mechanical, electronics has set a new trend in the road to establishing a brand name for UIET Kanpur.
-            This site was designed with the vision on helping the students of UIET with previous years exam Papers,Notes and other stuffs like books, videos which will help them with their academics and help them grow better in their academics as well as in their respective fields too.
+          <div class="bg-yellow-100 dark:bg-gray-800 px-3 md:px-4 py-2 flex flex-col justify-center items-center">
+            <p class="mt-4 text-black md:w-9/12 lg:w-7/12 dark:text-white">
+              UIET Kanpur, UNIVERSITY INSTITUTE OF ENGINEERING AND TECHNOLOGY, a
+              department of CSJM UNIVERSITY has prospered by leaps and bounds
+              over the years achieving great academic heights besides foraying
+              into the top 50 finest engineering colleges of the country. Having
+              been taught by one of the best faculties of the region, the
+              students of UIET Kanpur have been empowered and groomed to take on
+              the rigorous challenges in their upcoming lives. The sincere
+              efforts made by our glorious alumni in the progress of the
+              institute has further strengthened its fundamentals in a short
+              span of time. The atmosphere of creativity and the enterprising
+              attitude of the students has promoted a spirit of innovation. The
+              recent achievements of the students in myriad fields including
+              software, mechanical, electronics has set a new trend in the road
+              to establishing a brand name for UIET Kanpur. This site was
+              designed with the vision on helping the students of UIET with
+              previous years exam Papers,Notes and other stuffs like books,
+              videos which will help them with their academics and help them
+              grow better in their academics as well as in their respective
+              fields too.
             </p>
-           
           </div>
         </div>
       </div>
