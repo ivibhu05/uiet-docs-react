@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 // import image1 from '../assests/Preeti.png'
-// import Mohit from 'src/assests/mohits.png'
+import Mohit from "../../assets/mohits.png";
 
 const Contact = () => {
   return (
@@ -11,7 +11,11 @@ const Contact = () => {
         <section className="text-gray-600 body-font">
           <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-              {/* <img className="  object-cover object-center rounded-circle " alt="hero" src={Mohit} /> */}
+              <img
+                className="  object-cover object-center rounded-circle "
+                alt="hero"
+                src={Mohit}
+              />
             </div>
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
@@ -30,7 +34,7 @@ const Contact = () => {
               </p>
               <div className="flex justify-center">
                 <button
-                  style={{ backgroundColor: 'rgb(128,0,0' }}
+                  style={{ backgroundColor: "rgb(128,0,0" }}
                   className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                 >
                   Connect
@@ -68,7 +72,7 @@ const Contact = () => {
 
             <div className="flex justify-center">
               <button
-                style={{ backgroundColor: 'rgb(128,0,0' }}
+                style={{ backgroundColor: "rgb(128,0,0" }}
                 className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
               >
                 Connect
@@ -139,13 +143,13 @@ const Contact = () => {
                       id="message"
                       name="message"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                      defaultValue={''}
+                      defaultValue={""}
                     />
                   </div>
                 </div>
                 <div className="p-2 w-full">
                   <button
-                    style={{ backgroundColor: 'rgb(128,0,0' }}
+                    style={{ backgroundColor: "rgb(128,0,0" }}
                     className="flex mx-auto text-white transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg "
                   >
                     Submit
