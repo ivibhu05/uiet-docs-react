@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import image from 'src/assests/logo1.png'
-// import Dropdown from './dropdown'
 
 const Header = () => {
   const tabs = [
