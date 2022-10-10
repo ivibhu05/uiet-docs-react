@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const tabs = [
     {
+      label: 'Home',
+      value: '/home',
+    },
+    {
       label: 'Notes',
       value: '/about',
     },
