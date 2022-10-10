@@ -1,108 +1,52 @@
 import React from 'react';
-import Vibhanshu from '../../assets/vibhu_uiet.jpg';
-import Dheeraj from '../../assets/dp.jpg';
+import { TEAM } from '../../utils/team';
 
 const Contact = () => {
   return (
     <>
       <hr />
-      <div>
-        <hr />
-        <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-              <img
-                className=" ml-40 object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
+      {TEAM?.map(({ name, branch, role, linkedin, portfolio, photo }) => (
+        <div>
+          <hr />
+          <section className="text-gray-600 body-font">
+            <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
+              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                <img
+                  className=" ml-40 object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
                 bg-green-400 w-60 h-30 "
-                alt="hero"
-                src={Dheeraj}
-              />
-            </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                Dheeraj Pandey
-              </h1>
-              <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small text-gray-900">
-                Computer Science & Engineering-2019
-              </h3>
-              <p className="mb-4 leading-relaxed">Owner & Developer</p>
-              <div className="flex justify-center">
-                <a
-]
-                  href="https://www.linkedin.com/in/dheerajpandey1/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button
-                    style={{ backgroundColor: 'rgb(128,0,0' }}
-                    className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-                  >
-                    Connect
-                  </button>
-                </a>
+                  alt="hero"
+                  src={photo}
+                />
+              </div>
+              <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                  {name}
+                </h1>
+                <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small text-gray-900">
+                  {branch}
+                </h3>
+                <p className="mb-4 leading-relaxed">{role}</p>
+                <div className="flex justify-center">
+                  <a href={linkedin} target="_blank" rel="noreferrer">
+                    <button
+                      style={{ backgroundColor: 'rgb(128,0,0' }}
+                      className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    >
+                      Connect
+                    </button>
+                  </a>
 
-                <a
-                  href="https://dcpandey1.github.io/Portfolio/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                    Portfolio
-                  </button>
-                </a>
+                  <a href={portfolio} target="_blank" rel="noreferrer">
+                    <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
+                      Portfolio
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
-      </div>
-      <div>
-        <hr />
-        <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-              <img
-                className="ml-40 object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
-                bg-green-400 w-60 h-30"
-                alt="hero"
-                src={Vibhanshu}
-              />
-            </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-                Vibhanshu Pandey
-              </h1>
-              <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small text-gray-900">
-                Computer Science & Engineering-2019
-              </h3>
-              <p className="mb-4 leading-relaxed">Owner & Developer</p>
-              <div className="flex justify-center">
-                <a
-                  href="https://www.linkedin.com/in/ivibhu05/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button
-                    style={{ backgroundColor: 'rgb(128,0,0' }}
-                    className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-                  >
-                    Connect
-                  </button>
-                </a>
-                <a
-                  href="https://ivibhu05.github.io/Portfolio/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                    Portfolio
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-
+          </section>
+        </div>
+      ))}
       <hr />
 
       <hr />
