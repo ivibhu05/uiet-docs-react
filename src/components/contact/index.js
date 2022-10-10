@@ -25,7 +25,7 @@ const Contact = () => {
               <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small text-gray-900">
                 Computer Science & Engineering-2019
               </h3>
-              <p className="mb-4 leading-relaxed">Owner and Developer</p>
+              <p className="mb-4 leading-relaxed">Owner & Developer</p>
               <div className="flex justify-center">
                 <a
                   href="https://www.linkedin.com/in/dheerajpandey1/"
@@ -72,7 +72,7 @@ const Contact = () => {
               <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small text-gray-900">
                 Computer Science & Engineering-2019
               </h3>
-              <p className="mb-4 leading-relaxed">Owner and Developer</p>
+              <p className="mb-4 leading-relaxed">Owner & Developer</p>
               <div className="flex justify-center">
                 <a
                   href="https://www.linkedin.com/in/ivibhu05/"
