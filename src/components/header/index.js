@@ -4,13 +4,12 @@ import { TABS } from '../../utils/pages-tabs';
 import logo from '../../assets/logo1.png';
 
 const Header = () => {
-
   return (
     <div
       style={{
         position: 'sticky',
-        top:0,
-        zIndex:'10',
+        top: 0,
+        zIndex: '10',
         right: 0,
         left: 0,
         backgroundColor: 'rgb(128,0,0)',
@@ -18,7 +17,10 @@ const Header = () => {
     >
       <header class="text-gray-400  body-font">
         <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-          <Link class="flex title-font font-medium items-center text-white mb-0 md:mb-0">
+          <Link
+            class="flex title-font font-medium items-center text-white mb-0 md:mb-0"
+            to="/home"
+          >
             <img src={logo} alt="logo" width={25} height={20}></img>
             <span class=" ml-3 text-xl">UIET DOCS</span>
           </Link>
@@ -58,4 +60,3 @@ const Header = () => {
 };
 
 export default Header;
-
