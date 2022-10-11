@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
               <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
                 <img
-                  className=" ml-40 object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
+                  className="object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
                 bg-green-400 w-60 h-30 "
                   alt="hero"
                   src={photo}

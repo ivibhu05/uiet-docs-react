@@ -17,7 +17,7 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
+                  className=" inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team1}
                 />
               </div>
@@ -26,7 +26,7 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
+                  className=" inset-0 h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team2}
                 />
               </div>
@@ -35,7 +35,7 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 object-fill h-48 w-96 object-center border-5 border-grey-100 border-solid"
+                  className=" inset-0 object-fill h-48 w-96 object-center border-5 border-grey-100 border-solid"
                   src={Team3}
                 />
               </div>
@@ -44,8 +44,8 @@ const Clubs = () => {
         </div>
       </section>
 
-      <section className="antialiased bg-gray-100 text-gray-600 h-screen px-4 ml-100">
-        <div className="mt-1 flex flex-col justify-center h-full ">
+      <section className="antialiased bg-gray-100 text-gray-600 py-12 px-4 ml-100">
+        <div className=" flex flex-col justify-center h-full ">
           {/* Table */}
           <div className=" w-full max-w-2xl mx-auto py-12 bg-white shadow-lg rounded-sm border border-gray-200">
             <header className="px-5 py-4 border-b border-gray-100">
