@@ -7,7 +7,7 @@ import { WINNER } from '../../utils/contest-winner';
 const Clubs = () => {
   return (
     <div>
-      <h1 className="py-2 sm:text-3xl text-2xl font-medium title-font text-gray-900 text-center">
+      <h1 className="py-4 sm:text-3xl text-2xl font-medium title-font text-gray-900 text-center">
         Evolution (UIET Coding Club)
       </h1>
       <section className="text-gray-600 body-font">

@@ -34,7 +34,7 @@ const Header = () => {
               </Link>
             ))}
           </nav>
-          <a href="https://www.google.com/" rel="noreferrer" target="_blank">
+          <a href="https://forms.gle/QnnVLMj1eQqocEgC7" rel="noreferrer" target="_blank">
             <button
               style={{ backgroundColor: 'white' }}
               class="animate-pulse inline-flex items-center  border-0 py-2 px-4 focus:outline-none hover:bg-green rounded text-base mt-2 md:mt-0"
