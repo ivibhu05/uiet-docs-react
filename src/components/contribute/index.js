@@ -16,19 +16,19 @@ const Contribute = () => {
                   <tr>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-gray-500  tracking-wider text-xl"
                     >
                       Name
                     </th>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-gray-500  text-xl tracking-wider"
                     >
                       Branch & Year
                     </th>
                     <th
                       scope="col"
-                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                      className="px-6 py-3 text-left text-xs font-medium text-gray-500 text-xl  tracking-wider"
                     >
                       Contribution
                     </th>
@@ -40,19 +40,19 @@ const Contribute = () => {
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center">
                           <div className="ml-4">
-                            <div className="text-sm font-medium text-gray-900">
+                            <div className=" font-medium text-gray-900 text-lg">
                               {name}
                             </div>
-                            <div className="text-sm text-gray-500">{email}</div>
+                            <div className="text-lg text-gray-500">{email}</div>
                           </div>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="text-sm text-gray-900">{branch}</div>
-                        <div className="text-sm text-gray-500">{year}</div>
+                        <div className="text-lg text-gray-900">{branch}</div>
+                        <div className="text-lg text-gray-500">{year}</div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
-                        <span className="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        <span className="px-2 inline-flex text-lg leading-5 font-semibold rounded-full bg-green-100 text-green-800">
                           {score}
                         </span>
                       </td>
