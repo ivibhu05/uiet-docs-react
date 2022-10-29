@@ -38,7 +38,7 @@ const Contact = () => {
 
                   <a href={portfolio} target="_blank" rel="noreferrer">
                     <button className="transition duration-500 ease-in-out bg-green-400 hover:bg-blue-500 transform hover:-translate-y-1 hover:scale-110 ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                      Portfolio
+                      About
                     </button>
                   </a>
                 </div>

@@ -9,7 +9,7 @@ const Footer = () => {
         bottom: 0,
         right: 0,
         left: 0,
-        backgroundColor: 'rgb(128,0,0',
+        backgroundColor: 'rgb(128,0,0)',
       }}
     >
       <footer className="text-gray-600 body-font">
