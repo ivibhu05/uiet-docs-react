@@ -7,6 +7,7 @@ import Contact from '../components/contact';
 import Contribute from '../components/contribute';
 import Clubs from '../components/clubs';
 import Home from '../components/home';
+import Syllabus from '../components/syllabus';
 
 const Routes = () => {
   return (
@@ -25,6 +26,9 @@ const Routes = () => {
           </Route>
           <Route exact path="/contributers">
             <Contribute />
+          </Route>
+          <Route exact path="/syllabus">
+            <Syllabus />
           </Route>
           <Route exact path="/clubs">
             <Clubs />
