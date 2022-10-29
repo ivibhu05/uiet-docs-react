@@ -1,5 +1,5 @@
 import Vibhanshu from '../../assets/vibhu_uiet.jpg';
-import Dheeraj from '../../assets/dp.jpg';
+import Dheeraj from '../../assets/dp2.jpeg';
 
 export const TEAM = [
   {

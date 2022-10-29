@@ -13,7 +13,7 @@ export const TABS = [
     },
     {
       label: 'Syllabus',
-      value: '/about',
+      value: '/syllabus',
     },
     {
       label: 'Resource',
