@@ -80,8 +80,8 @@ const Home = () => {
           class=" rounded pb-8 container mx-auto flex justify-center items-center px-4 md:px-0 py-15"
         >
           <p class="mt-4 text-black dark:text-white text-justify">
-            UIET Kanpur, UNIVERSITY INSTITUTE OF ENGINEERING AND TECHNOLOGY, a
-            department of CSJM UNIVERSITY has prospered by leaps and bounds over
+            <strong>UIET Kanpur</strong>, <b>UNIVERSITY INSTITUTE OF ENGINEERING AND TECHNOLOGY</b>, a
+            department of <b>CSJM UNIVERSITY</b> has prospered by leaps and bounds over
             the years achieving great academic heights besides foraying into the
             top 50 finest engineering colleges of the country. Having been
             taught by one of the best faculties of the region, the students of
