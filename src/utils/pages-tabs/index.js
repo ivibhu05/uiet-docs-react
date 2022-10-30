@@ -5,19 +5,15 @@ export const TABS = [
     },
     {
       label: 'Papers',
-      value: '/about',
+      value: '/papers',
     },
-    {
-      label: 'Notes',
-      value: '/about',
-    },
+    // {
+    //   label: 'Notes',
+    //   value: '/notes',
+    // },
     {
       label: 'Syllabus',
       value: '/syllabus',
-    },
-    {
-      label: 'Resource',
-      value: '/about',
     },
     {
       label: 'Clubs',
