@@ -1,5 +1,5 @@
 import React from 'react';
-import { CONTRIBUTERS } from '../../utils/contribute-constants';
+import { CONTRIBUTERS } from '../../utils/contributers';
 
 const Contribute = () => {
   return (

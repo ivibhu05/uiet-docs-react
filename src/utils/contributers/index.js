@@ -22,7 +22,7 @@ export const CONTRIBUTERS=[
     },
     {
         name:'Hemant Singh',
-        email:'anitsingh0095@gmail.com',
+        email:'shemant2740@gmail.com',
         branch:'Computer Science',
         year:'2020',
         score:'+12',

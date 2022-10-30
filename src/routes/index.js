@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import About from '../components/about';
+import Papers from '../components/papers';
 import Footer from '../components/footer';
 import Header from '../components/header';
 import Contact from '../components/contact';
@@ -18,20 +18,23 @@ const Routes = () => {
           <Route exact path="/home">
             <Home/>
           </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/contributers">
-            <Contribute />
+          {/* <Route exact path="/notes">
+            <Notes/>
+          </Route> */}
+          <Route exact path="/papers">
+            <Papers/>
           </Route>
           <Route exact path="/syllabus">
             <Syllabus />
           </Route>
           <Route exact path="/clubs">
             <Clubs />
+          </Route>
+          <Route exact path="/contributers">
+            <Contribute />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
         <Footer />
