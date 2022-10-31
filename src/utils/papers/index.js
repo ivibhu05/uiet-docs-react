@@ -1,33 +1,34 @@
-import CsePapers from '../../containers/cse-papers';
+// import Contact from '../../components/contact';
+// import CsePapers from '../../containers/cse-papers';
 export const PAPERS = [
   {
     label: 'Computer Science & Engineering',
     value: '/cse-papers',
-    component: () => <CsePapers />,
+    // component: () => <Contact/>,
   },
   {
     label: 'Information Technology',
     value: '/it-papers',
-    component: () => <CsePapers />,
+    // component: () => <CsePapers />,
   },
   {
     label: 'Eletronics and Communication Engineering',
     value: '/ece-papers',
-    component: () => <CsePapers />,
+    // component: () => <CsePapers />,
   },
   {
     label: 'Mechanical Engineering',
     value: '/mee-papers',
-    component: () => <CsePapers />,
+    // component: () => <CsePapers />,
   },
   {
     label: ' Materials Science & Metallurgical Engineering',
     value: '/msme-papers',
-    component: () => <CsePapers />,
+    // component: () => <CsePapers />,
   },
   {
     label: ' Chemical Engineering',
     value: '/che-papers',
-    component: () => <CsePapers />,
+    // component: () => <CsePapers />,
   },
 ];
