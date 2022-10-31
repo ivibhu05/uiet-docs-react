@@ -8,7 +8,12 @@ import Contribute from '../components/contribute';
 import Clubs from '../components/clubs';
 import Home from '../components/home';
 import Syllabus from '../components/syllabus';
-
+import CsePapers from '../containers/cse-papers';
+import ItPapers from '../containers/it-papers';
+import EcePapers from '../containers/ece-papers';
+import MeePapers from '../containers/mee-papers';
+import MsmePapers from '../containers/msme-papers';
+import ChePapers from '../containers/che-papers';
 const Routes = () => {
   return (
     <>
@@ -24,6 +29,33 @@ const Routes = () => {
           <Route exact path="/papers">
             <Papers/>
           </Route>
+          <Route exact path="/cse-papers">
+            <CsePapers age={20}/>
+          </Route>
+        
+          <Route exact path="/it-papers">
+            <ItPapers age={20}/>
+          </Route>
+        
+          <Route exact path="/ece-papers">
+            <EcePapers age={20}/>
+          </Route>
+        
+          <Route exact path="/msme-papers">
+            <MsmePapers/>
+          </Route>
+        
+          <Route exact path="/che-papers">
+            <ChePapers/>
+          </Route>
+        
+          <Route exact path="/mee-papers">
+            <MeePapers age={20}/>
+          </Route>
+        
+
+
+
           <Route exact path="/syllabus">
             <Syllabus />
           </Route>
