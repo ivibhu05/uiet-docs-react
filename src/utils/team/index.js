@@ -24,7 +24,7 @@ export const TEAM = [
     branch: 'Computer Science & Engineering-2020',
     role: 'Developer',
     linkedin: ' https://www.linkedin.com/in/shivam-pandey-77530a202/',
-    portfolio: ' starkshiva.me',
+    portfolio: 'https://starkshiva.me/',
     photo: Shivam,
   },
 
