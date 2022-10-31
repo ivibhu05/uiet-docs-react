@@ -1,5 +1,6 @@
 import Vibhanshu from '../../assets/vibhu_uiet.jpg';
 import Dheeraj from '../../assets/dp2.jpeg';
+import Shivam from '../../assets/shivam_uiet.jpeg'
 
 export const TEAM = [
   {
@@ -18,4 +19,13 @@ export const TEAM = [
     portfolio: 'https://ivibhu05.github.io/Portfolio/',
     photo: Vibhanshu,
   },
+  {
+    name: 'Shivam Pandey',
+    branch: 'Computer Science & Engineering-2020',
+    role: 'Developer',
+    linkedin: ' https://www.linkedin.com/in/shivam-pandey-77530a202/',
+    portfolio: ' starkshiva.me',
+    photo: Shivam,
+  },
+
 ];
