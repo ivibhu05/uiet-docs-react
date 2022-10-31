@@ -1,5 +1,10 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
 import Papers from '../components/papers';
 import Footer from '../components/footer';
 import Header from '../components/header';
@@ -20,42 +25,39 @@ const Routes = () => {
       <Router>
         <Header />
         <Switch>
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route exact path="/my-app">
+            <Redirect to="/home" />
+          </Route>
           <Route exact path="/home">
-            <Home/>
+            <Home />
           </Route>
           {/* <Route exact path="/notes">
             <Notes/>
           </Route> */}
           <Route exact path="/papers">
-            <Papers/>
+            <Papers />
           </Route>
           <Route exact path="/cse-papers">
-            <CsePapers age={20}/>
+            <CsePapers />
           </Route>
-        
           <Route exact path="/it-papers">
-            <ItPapers age={20}/>
+            <ItPapers />
           </Route>
-        
           <Route exact path="/ece-papers">
-            <EcePapers age={20}/>
+            <EcePapers />
           </Route>
-        
           <Route exact path="/msme-papers">
-            <MsmePapers/>
+            <MsmePapers />
           </Route>
-        
           <Route exact path="/che-papers">
-            <ChePapers/>
+            <ChePapers />
           </Route>
-        
           <Route exact path="/mee-papers">
-            <MeePapers age={20}/>
+            <MeePapers />
           </Route>
-        
-
-
-
           <Route exact path="/syllabus">
             <Syllabus />
           </Route>
