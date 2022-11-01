@@ -47,7 +47,7 @@ const Clubs = () => {
       <section className="antialiased bg-gray-100 text-gray-600 py-12 px-4 ml-100">
         <div className=" flex flex-col justify-center h-full ">
           {/* Table */}
-          <div className=" w-full max-w-2xl mx-auto py-12 bg-white shadow-lg rounded-sm border border-gray-200">
+          <div className=" rounded-xl w-full max-w-2xl mx-auto py-12 bg-blue-100 shadow-lg rounded-sm border border-gray-200">
             <header className="px-5 py-4 border-b border-gray-100">
               <h2 className="font-semibold text-gray-800 text-3xl text-center">
                 Previous Winners
@@ -76,12 +76,12 @@ const Clubs = () => {
                     </tr>
                   </thead>
                   {WINNER?.map(({ contest, link, name, batch }) => (
-                    <tbody className="text-sm divide-y divide-gray-100">
+                    <tbody className="text-sm  divide-y divide-gray-100">
                       <tr>
                         <td className="p-2 whitespace-nowrap">
                           <div className="flex items-center">
                             <a
-                              className="hover:underline md:underline font-medium text-gray-800 text-xl"
+                              className=" font-medium text-gray-800 text-xl"
                               href={link}
                               target="_blank"
                               rel="noreferrer"
