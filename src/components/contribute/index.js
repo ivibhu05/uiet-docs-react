@@ -3,14 +3,16 @@ import { CONTRIBUTERS } from '../../utils/contributers';
 
 const Contribute = () => {
   return (
-    <div>
+    <>
+    
+    
       <h1 className="sm:text-3xl text-2xl text-center font-medium title-font mb-4 text-gray-900 py-2">
         Top Contributers
       </h1>
       <div className="flex flex-col">
         <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-0">
           <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
-            <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+            <div className="shadow-2xl border-2 border-gray-200 sm:rounded-lg">
               <table className="min-w-full divide-y divide-gray-200">
                 <thead className="bg-gray-50">
                   <tr>
@@ -64,8 +66,12 @@ const Contribute = () => {
           </div>
         </div>
       </div>
-      <br />
-    </div>
+      
+    
+    <br />
+    <br />
+    <br />
+    </>
   );
 };
 
