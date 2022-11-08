@@ -1,17 +1,15 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Redirect,
-} from 'react-router-dom';
+import React, {useState} from 'react';
+import Style from './BaseLayout.module.scss'
+import Navbar from "./header";
+import Home from "./home/index";
+import {Box, Grid} from "@mui/material";
+import {  Route,Routes } from "react-router-dom"; 
 import Papers from '../components/papers';
-import Footer from '../components/footer';
-import Header from '../components/header';
+// import Footer from '../components/footer';
+// import Header from '../components/header';
 import Contact from '../components/contact';
 import Contribute from '../components/contribute';
 import Clubs from '../components/clubs';
-import Home from '../components/home';
 import Syllabus from '../components/syllabus';
 import CsePapers from '../containers/cse-papers';
 import ItPapers from '../containers/it-papers';
@@ -19,24 +17,32 @@ import EcePapers from '../containers/ece-papers';
 import MeePapers from '../containers/mee-papers';
 import MsmePapers from '../containers/msme-papers';
 import ChePapers from '../containers/che-papers';
-const Routes = () => {
-  return (
-    <>
-      <Router>
-        <Header />
-        <Switch>
-          <Route exact path="/">
-            <Redirect to="/home" />
-          </Route>
-          <Route exact path="/my-app">
-            <Redirect to="/home" />
-          </Route>
-          <Route exact path="/home">
-            <Home />
-          </Route>
+
+
+export default function BaseLayout() {
+   let [darkMode, setDarkMode] = useState(false);
+
+   function handleClick() {
+      setDarkMode(!darkMode);
+   }
+
+   return (
+      <Box className={darkMode ? Style.dark : Style.light}>
+         <Grid container display={'flex'} flexDirection={'column'} minHeight={'100vh'}
+               justifyContent={'space-between'}>
+            <Grid item>
+               <Navbar darkMode={darkMode} handleClick={handleClick}/>
+            </Grid>
+            <Grid item flexGrow={1}>
+               <Routes>
+            
+        
           {/* <Route exact path="/notes">
             <Notes/>
           </Route> */}
+           <Route exact path="/Home">
+            <Home />
+          </Route>
           <Route exact path="/papers">
             <Papers />
           </Route>
@@ -70,11 +76,10 @@ const Routes = () => {
           <Route exact path="/contact">
             <Contact />
           </Route>
-        </Switch>
-        <Footer />
-      </Router>
-    </>
-  );
-};
+               </Routes>
+            </Grid>
+         </Grid>
+      </Box>
+   )
+}
 
-export default Routes;
