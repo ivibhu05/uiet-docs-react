@@ -55,7 +55,7 @@ const Contact = () => {
         <br />
 
         <section className="text-gray-600 body-font relative pr-3 pl-3">
-          <div className="container px-5 py-24 mx-auto">
+          <div className="container px-5 py-24 mx-auto border-2 rounded-2xl shadow-2xl bg-green-50">
             <div className="flex flex-col text-center w-full mb-12 ">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
                 Contact Us

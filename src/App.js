@@ -1,17 +1,13 @@
 import React from 'react';
+import Routes from './routes';
 import './App.css';
-import BaseLayout from "./components/BaseLayout";
-import {BrowserRouter} from "react-router-dom";
 
 function App() {
-   return (
-      <div>
-         <BrowserRouter>
-            <BaseLayout/>
-         </BrowserRouter>
-      </div>
-   );
+  return (
+    <>
+      <Routes/>
+    </>
+  );
 }
-
 
 export default App;
