@@ -70,6 +70,7 @@ const Routes = () => {
           <Route exact path="/contact">
             <Contact />
           </Route>
+          <Route render={() => <Redirect />} />
         </Switch>
         <Footer />
       </Router>
