@@ -22,7 +22,7 @@ import ChePapers from '../containers/che-papers';
 const Routes = () => {
   return (
     <>
-      <Router>
+      <Router basename="/uiet-docs-react">
         <Header />
         <Switch>
           <Route exact path="/">
