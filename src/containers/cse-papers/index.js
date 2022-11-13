@@ -10,18 +10,19 @@ const CsePapers = () => {
   return (
     <>
       <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto py-5">
           <div class="flex flex-wrap w-full mb-10 flex-col items-center text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font  text-gray-900">
               📝 Computer Science & Engineering
             </h1>
           </div>
           <div className="pl-5 pr-5">
             <div class="flex flex-wrap w-full flex-col items-center text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 ">
+              <h1 class="py-2 px-4  bg-gradient-to-r from-green-400 to-blue-500 text-white w-40 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-xl text-2xl">
                 YEAR I
               </h1>
             </div>
+            <br />
             <hr />
             <div
               id="modal"
@@ -45,10 +46,11 @@ const CsePapers = () => {
               </div>
             </div>
             <div class="flex flex-wrap w-full  flex-col items-center text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 class="py-2 px-4  bg-gradient-to-r from-green-400 to-blue-500 text-white w-40 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-xl text-2xl">
                 YEAR II
               </h1>
             </div>
+            <br />
             <hr />
             <div
               id="modal"
@@ -72,10 +74,12 @@ const CsePapers = () => {
               </div>
             </div>
             <div class="flex flex-wrap w-full  flex-col items-center text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 class="py-2 px-4  bg-gradient-to-r from-green-400 to-blue-500 text-white w-40 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-xl text-2xl">
                 YEAR III
               </h1>
             </div>
+            <br />
+
             <hr />
             <div
               id="modal"
@@ -99,10 +103,11 @@ const CsePapers = () => {
               </div>
             </div>
             <div class="flex flex-wrap w-full  flex-col items-center text-center">
-              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+              <h1 class="py-2 px-4  bg-gradient-to-r from-green-400 to-blue-500 text-white w-40 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-xl text-2xl">
                 YEAR IV
               </h1>
             </div>
+            <br />
             <hr />
             <div
               id="modal"
