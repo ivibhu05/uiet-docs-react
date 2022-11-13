@@ -17,7 +17,7 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className=" inset-0 h-48 w-96 object-center border-3 border-grey-100 border-solid"
+                  className=" inset-0 h-48 w-96 object-center border-3 border-grey-100 border-solid shadow-2xl"
                   src={Team1}
                 />
               </div>
@@ -26,16 +26,16 @@ const Clubs = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className=" inset-0 h-48 w-96 object-center border-3 border-grey-100 border-solid"
+                  className=" inset-0 h-48 w-96 object-center border-3 border-grey-100 border-solid shadow-2xl"
                   src={Team2}
                 />
               </div>
             </div>
-            <div className="lg:w-1/3 sm:w-1/2 p-4">
-              <div className="flex relative">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 ">
+              <div className="flex relative ">
                 <img
                   alt="gallery"
-                  className=" inset-0 object-fill h-48 w-96 object-center border-3 border-grey-100 border-solid"
+                  className=" inset-0 object-fill h-48 w-96 object-center border-3 border-grey-100 border-solid shadow-2xl"
                   src={Team3}
                 />
               </div>
