@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {
   HashRouter as Router,
   Switch,
@@ -19,11 +19,30 @@ import EcePapers from '../containers/ece-papers';
 import MeePapers from '../containers/mee-papers';
 import MsmePapers from '../containers/msme-papers';
 import ChePapers from '../containers/che-papers';
-const Routes = () => {
+import Style from "../routes/routes.module.css";
+
+export default function Routes(){
+  let [darkMode, setDarkMode] = useState(false);
+
+  function handleClick() {
+    setDarkMode(!darkMode);
+  }
+
   return (
-    <>
+    <div className={darkMode ? Style.dark : Style.light}>
+      <div
+        container
+        display={"flex"}
+        flexDirection={"column"}
+        minHeight={"100vh"}
+        justifyContent={"space-between"}
+      >
+        <div item>
+          <Header darkMode={darkMode} handleClick={handleClick} />
+          
+        </div>
       <Router>
-        <Header />
+     
         <Switch>
           <Route exact path="/">
             <Redirect to="/home" />
@@ -73,8 +92,8 @@ const Routes = () => {
         </Switch>
         <Footer />
       </Router>
-    </>
-  );
-};
 
-export default Routes;
+      </div>
+    </div>
+  )
+}
