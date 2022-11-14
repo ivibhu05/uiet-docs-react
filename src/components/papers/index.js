@@ -5,9 +5,9 @@ const Papers = () => {
   return (
     <>
       <section className="dark:text-gray-600  body-font">
-        <div className="container px-5 py-5 mx-auto">
-          <div className="text-center mb-20 ">
-            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-4">
+        <div className="container px-5 py-5 m-20">
+          <div className="text-center ">
+            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-8">
               Papers
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-2xl">

@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <div
       style={{
-        position: 'relative',
         bottom: 0,
         right: 0,
         left: 0,
