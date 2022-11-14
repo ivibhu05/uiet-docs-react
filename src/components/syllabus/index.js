@@ -5,9 +5,9 @@ const Syllabus = () => {
   return (
     <>
       <section className=" body-font">
-        <div className="container px-5 py-5 mx-auto">
-          <div className="text-center mb-20">
-            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-4">
+        <div className="container px-5 py-5 m-20">
+          <div className="text-center">
+            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-8">
               Syllabus
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-2xl">
@@ -31,9 +31,7 @@ const Syllabus = () => {
                       <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
                       <path d="M22 4L12 14.01l-3-3" />
                     </svg>
-                    <span className="title-font font-medium ">
-                      {label}
-                    </span>
+                    <span className="title-font font-medium ">{label}</span>
                   </div>
                 </a>
               </div>
