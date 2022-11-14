@@ -8,14 +8,14 @@ export const CONTRIBUTERS=[
     },
     {
         name:'Mohit Rai',
-        email:'anitsingh0095@gmail.com',
+        email:'cenation092@gmail.com',
         branch:'Computer Science',
         year:'2016',
         score:'+35',
     },
     {
         name:'Akash Madheshiya',
-        email:'anitsingh0095@gmail.com',
+        email:'akmadhesiya90@gmail',
         branch:'Computer Science',
         year:'2019',
         score:'+20',
@@ -29,16 +29,10 @@ export const CONTRIBUTERS=[
     },
     {
         name:'Nushoor Khan',
-        email:'anitsingh0095@gmail.com',
+        email:'auferstehung20@gmail.com',
         branch:'Computer Science',
         year:'2019',
         score:'+6',
     },
-    {
-        name:'Agam Jain',
-        email:'anitsingh0095@gmail.com',
-        branch:'Computer Science',
-        year:'2020',
-        score:'+5',
-    },
+
 ]
