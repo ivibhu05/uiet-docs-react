@@ -1,0 +1,20 @@
+
+.dark {
+  background-color: rgb(20, 19, 19);
+  color: white;
+  transition: all 400ms;
+/* 
+  h1,h2,h3,p{
+    color: white;
+    transition: all 400ms;
+  } */
+ 
+}
+
+.light {
+  background-color: white;
+  color: black;
+  transition: all 400ms;
+}
+
+

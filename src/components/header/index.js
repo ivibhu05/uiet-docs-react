@@ -2,8 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { TABS } from "../../utils/pages-tabs";
 import logo from "../../assets/logo1.png";
+import Toggler from "./toggler";
 
-const Header = () => {
+
+
+export default function Header({darkMode,handleClick}) {
   return (
     <div
       style={{
@@ -33,6 +36,7 @@ const Header = () => {
                 {label}
               </Link>
             ))}
+            <Toggler darkMode={darkMode} handleClick={handleClick}/>
           </nav>
           <a
             href="https://forms.gle/QnnVLMj1eQqocEgC7"
@@ -63,4 +67,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+

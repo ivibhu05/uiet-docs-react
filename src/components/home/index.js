@@ -81,9 +81,9 @@ const Home = () => {
       <div className="pl-5 pr-5  ">
         <div
           id="modal"
-          className="rounded-xl pb-8 container mx-auto flex justify-center border-3 mb-10 mt-10 shadow-2xl bg-green-50"
+          className="rounded-xl pb-8 container mx-auto flex justify-center border-3 mb-10 mt-10 shadow-2xl "
         >
-          <p className="mt-4 text-black dark:text-white text-justify">
+          <p className="mt-4 light:text-black dark:text-white text-justify">
             <strong>UIET Kanpur</strong>,{" "}
             <b>UNIVERSITY INSTITUTE OF ENGINEERING AND TECHNOLOGY</b>, a
             department of <b>CSJM UNIVERSITY</b> has prospered by leaps and

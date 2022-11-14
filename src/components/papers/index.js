@@ -4,10 +4,10 @@ import { PAPERS } from '../../utils/papers';
 const Papers = () => {
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="dark:text-gray-600  body-font">
         <div className="container px-5 py-5 mx-auto">
           <div className="text-center mb-20 ">
-            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font text-gray-900 mb-4">
+            <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-4">
               Papers
             </h1>
             <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-2xl">
@@ -16,7 +16,7 @@ const Papers = () => {
           </div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             {PAPERS?.map(({ label, value }) => (
-              <div className="p-2 sm:w-1/2 w-full">
+              <div className="p-2 sm:w-1/2 w-full text-black">
                 <Link to={value}>
                   <div className="bg-gray-200 rounded flex p-4 h-full items-center">
                     <svg
