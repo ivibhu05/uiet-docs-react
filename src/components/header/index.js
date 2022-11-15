@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { TABS } from "../../utils/pages-tabs";
+import { TABS2 } from "../../utils/pages-tabs";
 import logo from "../../assets/logo1.png";
 import Toggler from "./toggler";
+
 
 
 
@@ -38,16 +40,18 @@ export default function Header({darkMode,handleClick}) {
             ))}
             <Toggler darkMode={darkMode} handleClick={handleClick}/>
           </nav>
-          <a
-            href="https://forms.gle/QnnVLMj1eQqocEgC7"
-            rel="noreferrer"
-            target="_blank"
+          
+          {TABS2?.map(({ label, value }) => (
+          <Link to={value}
+            
+           
+            
           >
             <button
               style={{ backgroundColor: "white" }}
               class="animate-pulse inline-flex items-center  border-0 py-2 px-4 focus:outline-none hover:bg-green rounded text-base mt-2 md:mt-0"
             >
-              Contribute
+              {label}
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -60,7 +64,8 @@ export default function Header({darkMode,handleClick}) {
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>
             </button>
-          </a>
+          </Link>
+          ))}
         </div>
       </header>
     </div>
