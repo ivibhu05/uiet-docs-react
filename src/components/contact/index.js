@@ -18,7 +18,7 @@ const Contact = () => {
         The UIET Docs team
     </p>
     <p class="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-300">
-        Meat the UIET Docs team
+        Meet the UIET Docs team
     </p>
       <div class="md:flex gap-8  ml-4 mr-4">
       
