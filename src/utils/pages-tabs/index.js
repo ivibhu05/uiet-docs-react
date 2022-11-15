@@ -7,10 +7,7 @@ export const TABS = [
       label: 'Papers',
       value: '/papers',
     },
-    // {
-    //   label: 'Notes',
-    //   value: '/notes',
-    // },
+    
     {
       label: 'Syllabus',
       value: '/syllabus',
@@ -26,5 +23,11 @@ export const TABS = [
     {
       label: 'Contact Us',
       value: '/contact',
+    },
+  ]
+  export const TABS2=[
+    {
+      label: 'Contribute',
+      value: '/contributemsg',
     },
   ];

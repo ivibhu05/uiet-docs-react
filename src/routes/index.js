@@ -19,6 +19,7 @@ import EcePapers from '../containers/ece-papers';
 import MeePapers from '../containers/mee-papers';
 import MsmePapers from '../containers/msme-papers';
 import ChePapers from '../containers/che-papers';
+import ContributeMsg from '../components/contributemsg'
 import Style from "../routes/routes.module.css";
 
 export default function Routes(){
@@ -88,6 +89,9 @@ export default function Routes(){
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route exact path="/contributemsg">
+            <ContributeMsg/>
           </Route>
         </Switch>
         <Footer />
