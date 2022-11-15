@@ -1,35 +1,48 @@
-import React from 'react';
-import { TEAM } from '../../utils/team';
+import React from "react";
+import { TEAM } from "../../utils/team";
 
 const Contact = () => {
   return (
     <>
       <hr />
+      
+      <hr />
+
+      <hr />
+      <br />
+      
+
+      {/* New Team */}
+      
+      <p class="text-center text-3xl font-bold text-gray-800 dark:text-white">
+        The UIET Docs team
+    </p>
+    <p class="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-300">
+        Meat the UIET Docs team
+    </p>
+      <div class="md:flex gap-8  ml-4 mr-4">
+      
+        
       {TEAM?.map(({ name, branch, role, linkedin, portfolio, photo }) => (
-        <div>
-          <hr />
-          <section className=" body-font">
-            <div className="container mx-auto flex px-5 py-10 md:flex-row flex-col items-center">
-              <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img
-                  className="object-cover object-center rounded-circle border-5 border-yellow-200 border-solid
-                bg-green-400 w-60 h-30 "
-                  alt="hero"
-                  src={photo}
-                />
-              </div>
-              <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium ">
-                  {name}
-                </h1>
-                <h3 className="title-font sm:text-2xl text-2xl mb-2 font-small ">
-                  {branch}
-                </h3>
-                <p className="mb-4 leading-relaxed">{role}</p>
-                <div className="flex justify-center">
+        
+        <div class="md:w-1/10 text-center mb-8 md:mb-0 ">
+          
+          <img
+            class="w-48 h-48 rounded-circle mx-auto -mb-24 "
+            src={photo}
+            alt="Avatar Jacky"
+          />
+          <div class="bg-blue-100 shadow-2xl rounded-lg px-8 pt-32 pb-10 text-gray-400">
+            <h3 class="font-title text-gray-800 text-2xl mb-3">{name}</h3>
+            <p class="font-body">{role}</p>
+            <p class="font-body text-sm mb-4">
+              {branch}
+            </p>
+            
+            <div className="flex justify-center">
                   <a href={linkedin} target="_blank" rel="noreferrer">
                     <button
-                      style={{ backgroundColor: 'rgb(128,0,0' }}
+                      style={{ backgroundColor: "rgb(128,0,0" }}
                       className="inline-flex text-white  border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
                     >
                       Connect
@@ -42,14 +55,15 @@ const Contact = () => {
                     </button>
                   </a>
                 </div>
-              </div>
-            </div>
-          </section>
+          </div>
+          
         </div>
-      ))}
-      <hr />
+         ))}
+        
+      </div>
 
-      <hr />
+      {/* new Team */}
+
       <div>
         <br />
         <br />
@@ -110,13 +124,13 @@ const Contact = () => {
                       id="message"
                       name="message"
                       className="w-full  bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                      defaultValue={''}
+                      defaultValue={""}
                     />
                   </div>
                 </div>
                 <div className="p-2 w-full ">
                   <button
-                    style={{ backgroundColor: 'rgb(128,0,0' }}
+                    style={{ backgroundColor: "rgb(128,0,0" }}
                     className=" flex mx-auto text-white transition duration-500 ease-in-out bg-blue-600 hover:bg-red-600 transform hover:-translate-y-1 hover:scale-110  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg "
                   >
                     Submit
@@ -128,7 +142,6 @@ const Contact = () => {
         </section>
         <br />
         <br />
-        
       </div>
     </>
   );
