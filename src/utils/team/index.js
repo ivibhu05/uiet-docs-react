@@ -20,6 +20,8 @@ export const TEAM = [
     portfolio: 'https://ivibhu05.github.io/Portfolio/',
     photo: Vibhanshu,
   },
+
+  
   {
     name: 'Shivam Pandey',
     branch: 'Computer Science & Engineering-2020',
