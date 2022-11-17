@@ -16,8 +16,8 @@ const CsePapers = () => {
               📝 Computer Science & Engineering
             </h1>
           </div>
-          <div className="pl-5 pr-5">
-            <div class="flex flex-wrap w-full flex-col items-center text-center">
+          <div className="pl-5 pr-5 ">
+            <div class="flex flex-wrap w-full flex-col items-center text-center ">
               <h1 class="py-2 px-4  bg-gradient-to-r from-green-400 to-blue-500 text-white w-40 transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded text-2xl">
                 YEAR I
               </h1>
@@ -26,9 +26,9 @@ const CsePapers = () => {
             <hr />
             <div
               id="modal"
-              className="rounded-xl pb-6 mx-auto container border-3 mb-10 mt-10 shadow-2xl bg-green-100"
+              className="rounded-xl pb-6 mx-auto container border-3 mb-10 mt-10 shadow-2xl bg-green-100 "
             >
-              <div class="flex flex-wrap m-4">
+              <div class="flex flex-wrap m-4 flex justify-center items-center">
                 {PAPERSCSEI?.map(({ link, name }) => (
                   <div className="gallery">
                     <div class="border border-white-400  bg-red-800  hover:bg-gray-200 h-10 w-48 rounded-2xl m-2 mt-3">
@@ -56,7 +56,7 @@ const CsePapers = () => {
               id="modal"
               className="rounded-xl pb-6 mx-auto container border-3 mb-10 mt-10 shadow-2xl bg-green-100"
             >
-              <div class="flex flex-wrap m-4">
+              <div class="flex flex-wrap m-4 flex justify-center items-center">
                 {PAPERSCSEII?.map(({ link, name }) => (
                   <div>
                     <div class="border border-white-400 bg-red-800 hover:bg-gray-100 h-10 w-48 bg-rgb(0,0,0) rounded-2xl m-2 mt-3">
@@ -85,7 +85,7 @@ const CsePapers = () => {
               id="modal"
               className="rounded-xl pb-6 mx-auto container border-3 mb-10 mt-10 shadow-2xl bg-green-100"
             >
-              <div class="flex flex-wrap m-4">
+              <div class="flex flex-wrap m-4 flex justify-center items-center">
                 {PAPERSCSEIII?.map(({ link, name }) => (
                   <div>
                     <div class="border border-white-400 bg-red-800 hover:bg-gray-100 h-10 w-48 bg-red-800 rounded-2xl m-2 mt-3">
@@ -113,7 +113,7 @@ const CsePapers = () => {
               id="modal"
               className="rounded-xl pb-6 mx-auto container border-3 mb-10 mt-10 shadow-2xl bg-green-100"
             >
-              <div class="flex flex-wrap m-4">
+              <div class="flex flex-wrap m-4 flex justify-center items-center">
                 {PAPERSCSEIV?.map(({ link, name }) => (
                   <div>
                     <div class="border border-white-400 bg-red-800 hover:bg-gray-100 h-10 w-48 bg-rgb(0,0,0) rounded-2xl m-2 mt-3">

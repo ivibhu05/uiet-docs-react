@@ -4,8 +4,8 @@ import { PAPERS } from '../../utils/papers';
 const Papers = () => {
   return (
     <>
-      <section className="dark:text-gray-600  body-font">
-        <div className="container px-5 py-5 m-20">
+      <section className="dark:text-gray-600  body-font flex justify-center items-center">
+        <div className="container px-1 py-1 ml-4 mr-4 mb-28">
           <div className="text-center ">
             <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-8">
               Papers
@@ -14,9 +14,9 @@ const Papers = () => {
               Get the previous years Papers for all the departments of all year.
             </p>
           </div>
-          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 ">
             {PAPERS?.map(({ label, value }) => (
-              <div className="p-2 sm:w-1/2 w-full text-black">
+              <div className="p-2 sm:w-1/2 w-full text-black ">
                 <Link to={value}>
                   <div className="bg-gray-200 rounded flex p-4 h-full items-center">
                     <svg
