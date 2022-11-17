@@ -4,8 +4,8 @@ import { SYLLABUS } from '../../utils/syllabus';
 const Syllabus = () => {
   return (
     <>
-      <section className=" body-font">
-        <div className="container px-5 py-5 m-20">
+      <section className=" body-font flex justify-center items-center">
+        <div className="container px-1 py-1 ml-4 mr-4 mb-28">
           <div className="text-center">
             <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-8">
               Syllabus
@@ -39,6 +39,7 @@ const Syllabus = () => {
           </div>
         </div>
       </section>
+      
     </>
   );
 };
