@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ab3693d2.chunk.css",
-    "main.js": "/static/js/main.ee2563e6.chunk.js",
-    "main.js.map": "/static/js/main.ee2563e6.chunk.js.map",
+    "main.js": "/static/js/main.4724e8e9.chunk.js",
+    "main.js.map": "/static/js/main.4724e8e9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c974f4eb.js",
     "runtime-main.js.map": "/static/js/runtime-main.c974f4eb.js.map",
     "static/js/2.446d274d.chunk.js": "/static/js/2.446d274d.chunk.js",
@@ -14,12 +14,10 @@
     "static/js/2.446d274d.chunk.js.LICENSE.txt": "/static/js/2.446d274d.chunk.js.LICENSE.txt",
     "static/media/dp2.4b1cbcbe.jpeg": "/static/media/dp2.4b1cbcbe.jpeg",
     "static/media/groupPic.6bc3ba35.jpg": "/static/media/groupPic.6bc3ba35.jpg",
-    "static/media/hemant.f6cd7be5.jpeg": "/static/media/hemant.f6cd7be5.jpeg",
     "static/media/l1.302e2649.png": "/static/media/l1.302e2649.png",
     "static/media/l2.f0787456.png": "/static/media/l2.f0787456.png",
     "static/media/l3.9773cd4a.png": "/static/media/l3.9773cd4a.png",
     "static/media/logo1.ce6f4d36.png": "/static/media/logo1.ce6f4d36.png",
-    "static/media/shivam_uiet.e6c9e3f7.jpeg": "/static/media/shivam_uiet.e6c9e3f7.jpeg",
     "static/media/team.7e8ab3e7.jpg": "/static/media/team.7e8ab3e7.jpg",
     "static/media/team1.4e89b2f6.jpg": "/static/media/team1.4e89b2f6.jpg",
     "static/media/vibhu_uiet.e48cf492.jpg": "/static/media/vibhu_uiet.e48cf492.jpg"
@@ -28,6 +26,6 @@
     "static/js/runtime-main.c974f4eb.js",
     "static/js/2.446d274d.chunk.js",
     "static/css/main.ab3693d2.chunk.css",
-    "static/js/main.ee2563e6.chunk.js"
+    "static/js/main.4724e8e9.chunk.js"
   ]
 }
