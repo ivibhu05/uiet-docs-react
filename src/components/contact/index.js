@@ -13,13 +13,13 @@ const Contact = () => {
 
       {/* New Team */}
 
-      <h1 class="text-center text-4xl font-bold text-gray-800 dark:text-white">
+      <h1 class="text-center text-4xl font-bold  dark:text-white">
         The UIET Docs team
       </h1>
-      <p class="text-center mb-12 text-xl font-normal text-gray-500 dark:text-gray-300">
+      <p class="text-center mb-12 text-xl font-normal  dark:text-gray-300">
         Meet the UIET Docs team
       </p>
-      <div class="md:flex px-80 mb-14 gap-8  ml-4 mr-4">
+      <div class="md:flex justify-center  mb-14 gap-8  ml-4 mr-4">
         {TEAM?.map(({ name, branch, role, linkedin, portfolio, photo }) => (
           <div class="md:w-1/10 text-center mb-8 md:mb-0 ">
             <img
