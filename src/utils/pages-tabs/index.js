@@ -7,6 +7,10 @@ export const TABS = [
       label: 'Papers',
       value: '/papers',
     },
+    {
+      label: 'Notes',
+      value: '/Notes',
+    },
     
     {
       label: 'Syllabus',
