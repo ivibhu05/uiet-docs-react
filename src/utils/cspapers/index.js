@@ -44,24 +44,32 @@ export const PAPERSCSEI = [
 ];
 export const PAPERSCSEII = [
   {
-    link: 'https://drive.google.com/file/d/1HldjIIMFOuweloEhBBfFwm-bN3c5na-2/view',
+    link: 'https://drive.google.com/file/d/1hRHA2ymeX5pKoKbj6crMddn1yjVdYCoq/view?usp=share_link',
     name: 'MTH-S201',
   },
   {
-    link: 'https://drive.google.com/file/d/1qsnGPMAVRb4ClSd4gYYBlkzOrJxHHd8w/view',
+    link: 'https://drive.google.com/file/d/1s3Ugo7-5a_KXzNXRzI5hDv7ua-QV7g_D/view?usp=share_link',
     name: 'ESC-S202',
   },
   {
-    link: 'https://drive.google.com/file/d/1NNDiShVd96eAuVhU1EeWZuAa3kvQ9bK5/view',
+    link: 'https://drive.google.com/file/d/1pDv7rMtopDjoJr5a4fv-EnepqOZj4ius/view?usp=share_link',
     name: 'ESC-S201',
   },
   {
-    link: 'https://drive.google.com/file/d/1U8H0h-D0x1Und5X9JfZLZRUut2O4N485/view',
+    link: 'https://drive.google.com/file/d/1vWVyLeazdp630eR9LwxRmTuV4tQU94iH/view?usp=share_link',
     name: 'CSE-S201',
   },
   {
-    link: 'https://drive.google.com/file/d/1ieHUbaScXI2pq1Aw5CmSoaVPC64Z-l7z/view',
+    link: 'https://drive.google.com/file/d/1czZxKjcp7qpyxClc0uAZ_puuaKxTulAq/view?usp=share_link',
     name: 'CSE-S202',
+  },
+  {
+    link: 'https://drive.google.com/file/d/1D1AFzoYq5yc3k5TQ5gMkVfDEwOj1YCvJ/view?usp=share_link',
+    name: 'EVS-S101',
+  },
+  {
+    link: 'https://drive.google.com/file/d/1WPLyJqJvzP83FdNPe6WyqRCnHotjBkf9/view?usp=share_link',
+    name: 'UHV-S201',
   },
   {
     link: 'https://drive.google.com/file/d/1SeXtSiCeocUa4ngN2xdNDPPHRmRJtOna/view',
@@ -85,26 +93,27 @@ export const PAPERSCSEII = [
     link: 'https://drive.google.com/file/d/1syfTqaGCOqvPQZVIjpqi7e5-6dC08e5A/view',
     name: 'HSS-S401',
   },
+ 
 ];
 export const PAPERSCSEIII = [
   {
-    link: 'https://drive.google.com/file/d/1GUqRK4hWq3ahdJdGDIxgNAfYbmjMQ4yH/view',
+    link: 'https://drive.google.com/file/d/1Vz506e3CaheIZwCWoB-V83jEgVxkw7Xl/view?usp=share_link',
     name: 'CSE-S301',
   },
   {
-    link: 'https://drive.google.com/file/d/1mKA5KvAdRBRlGWi4l2oS9xS94UU_CSL2/view',
+    link: 'https://drive.google.com/file/d/1IWaJ3onI19jrmB9aRa9o5Zbv9B61MKQ2/view?usp=share_link',
     name: 'CSE-S302',
   },
   {
-    link: 'https://drive.google.com/file/d/1mKA5KvAdRBRlGWi4l2oS9xS94UU_CSL2/view',
+    link: 'https://drive.google.com/file/d/1pioJlZDd_yrAjvBW71HEJpEDyxvf97c4/view?usp=share_link',
     name: 'CSE-S303',
   },
   {
-    link: 'https://drive.google.com/file/d/1F8no2z0ICELLyD5Lhd4kSgahzlW7PvJr/view',
+    link: 'https://drive.google.com/file/d/1NIkEK81OGFfqVQA6BUBuqTHp9ZfGi9m5/view?usp=share_link',
     name: 'CSE-S304',
   },
   {
-    link: 'https://drive.google.com/file/d/17SXkzAiwCxN7mZS69aHOfgitxNs4NSKE/view',
+    link: 'https://drive.google.com/file/d/1RGZZ8N-Vbxg99_De-ucXd-lBKOjd_QvX/view?usp=share_link',
     name: 'MTH-S501',
   },
   {
@@ -136,7 +145,7 @@ export const PAPERSCSEIV = [
     name: 'HSS-S201',
   },
   {
-    link: '',
+    link: 'https://drive.google.com/file/d/1uiI7iGVN6RMJ7L6mnjCME8DsYERPiGY8/view?usp=share_link',
     name: 'CSE-S401',
   },
   {
@@ -152,25 +161,25 @@ export const PAPERSCSEIV = [
     name: 'PRT-S401',
   },
   {
-    link: '',
-    name: 'PRT-S402',
+    link: 'https://drive.google.com/file/d/11Vy--9AXBkLAGPyhjGS8OjWKsrVJ__VI/view?usp=share_link',
+    name: 'CSE-S521 E',
   },
   {
-    link: '',
-    name: 'ELECTIVE',
-  },
-
-  {
-    link: '',
-    name: 'ELECTIVE',
+    link: 'https://drive.google.com/file/d/1rul09rylaNo5sp7bpBVC82LhECWank-z/view?usp=share_link',
+    name: 'CSE-S501',
   },
 
   {
-    link: '',
-    name: 'ELECTIVE',
+    link: 'https://drive.google.com/file/d/1_AAnLPNjYsomuC6xeVCcp9I7rryEXE7l/view?usp=share_link',
+    name: 'CSE-S503',
+  },
+
+  {
+    link: 'https://drive.google.com/file/d/1g2fZwBJ8IozVGgXOaUf02frqG_bY7jTG/view?usp=share_link',
+    name: 'CSN-ELE',
   },
   {
-    link: '',
-    name: 'ELECTIVE',
+    link: 'https://drive.google.com/file/d/1T8vmEKu9ZQY1gx1Vh_EqBxQzqGnCbUAB/view?usp=share_link',
+    name: 'DIS-SYS ',
   },
 ];

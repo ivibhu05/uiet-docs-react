@@ -2,6 +2,7 @@ import React from 'react';
 import { CONTRIBUTERS } from '../../utils/contributers';
 
 const Contribute = () => {
+  
   return (
     <>
     
@@ -45,7 +46,7 @@ const Contribute = () => {
                             <div className=" font-medium  text-lg">
                               {name}
                             </div>
-                            <div className="text-lg ">{email}</div>
+                            <button className= 'hover:text-blue-500 ' onClick={() =>window.location = 'mailto:'+email }>{email}</button>                            
                           </div>
                         </div>
                       </td>

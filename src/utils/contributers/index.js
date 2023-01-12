@@ -7,11 +7,18 @@ export const CONTRIBUTERS=[
         score:'+50',
     },
     {
-        name:'Mohit Rai',
-        email:'cenation092@gmail.com',
+        name:'Kashish Kashyap',
+        email:'kashishk0508@gmail.com',
         branch:'Computer Science',
-        year:'2016',
-        score:'+35',
+        year:'2020',
+        score:'+40',
+    },
+    {
+        name:'Agam Jain',
+        email:'aagamjain573@gmail.com',
+        branch:'Computer Science',
+        year:'2020',
+        score:'+40',
     },
     {
         name:'Akash Madheshiya',
@@ -19,20 +26,13 @@ export const CONTRIBUTERS=[
         branch:'Computer Science',
         year:'2019',
         score:'+20',
-    },
+    },  
     {
-        name:'Hemant Singh',
-        email:'shemant2740@gmail.com',
+        name:'Shobhit Singh',
+        email:'imshobhit2003@gmail.com',
         branch:'Computer Science',
-        year:'2020',
-        score:'+12',
-    },
-    {
-        name:'Nushoor Khan',
-        email:'auferstehung20@gmail.com',
-        branch:'Computer Science',
-        year:'2019',
-        score:'+6',
+        year:'2021',
+        score:'+20',
     },
 
 ]
