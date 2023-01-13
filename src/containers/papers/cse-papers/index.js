@@ -4,7 +4,7 @@ import {
   PAPERSCSEII,
   PAPERSCSEIII,
   PAPERSCSEIV,
-} from '../../utils/cspapers';
+} from '../../../utils/cspapers';
 
 const CsePapers = () => {
   return (

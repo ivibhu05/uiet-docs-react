@@ -4,7 +4,7 @@ import {
   NOTESCSEII,
   NOTESCSEIII,
   NOTESCSEIV,
-} from '../../utils/csenotes/csnotes';
+} from '../../../utils/csenotes/csnotes';
 
 const Csenotes = () => {
   return (
