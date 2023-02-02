@@ -6,7 +6,11 @@
   "dependencies": {
     "-": "^0.0.1",
     "@craco/craco": "^6.4.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@headlessui/react": "^1.4.1",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
