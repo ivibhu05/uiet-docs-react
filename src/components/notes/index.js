@@ -5,7 +5,7 @@ import { NOTES } from '../../utils/Notes/notes';
 const Notes = () => {
   return (
     <>
-      <section className="dark:text-gray-600  body-font flex justify-center items-center">
+      <section className="dark:text-gray-600  body-font flex justify-center items-center py-8">
         <div className="container px-1 py-1 ml-4 mr-4 mb-28">
           <div className="text-center ">
             <h1 className="sm:text-4xl text-2xl font-medium  text-center title-font  mb-8">

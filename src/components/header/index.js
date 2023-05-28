@@ -1,75 +1,158 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Typography from "@mui/material/Typography";
+import Menu from "@mui/material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
+import Container from "@mui/material/Container";
+import MenuItem from "@mui/material/MenuItem";
+import Toggler from "./toggler";
 import { TABS } from "../../utils/pages-tabs";
 import { TABS2 } from "../../utils/pages-tabs";
 import logo from "../../assets/logo1.png";
-import Toggler from "./toggler";
+import { Link } from "react-router-dom";
+import { Stack } from "@mui/system";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
+export default function Header({ darkMode, handleClick }) {
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
 
+  const handleOpenNavMenu = (event) => {
+    setAnchorElNav(event.currentTarget);
+  };
 
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
-export default function Header({darkMode,handleClick}) {
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: "#800000",
+      },
+    },
+  });
+
   return (
-    <div
-      style={{
-        position: "sticky",
-        top: 0,
-        zIndex: "10",
-        right: 0,
-        left: 0,
-        backgroundColor: "rgb(128,0,0)",
-      }}
-    >
-      <header class="text-gray-400  body-font ">
-        <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-          <Link
-            class="flex title-font font-medium items-center text-white mb-0 md:mb-0"
-            to="/home"
-          >
-            <img src={logo} alt="logo" width={25} height={20}></img>
-            <span class=" ml-3 text-xl">UIET DOCS</span>
-          </Link>
-          <nav class=" ml-3 text-xl md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            {TABS?.map(({ label, value }) => (
-              <Link
-                class="mr-5 text-white hover:text-white font-medium"
-                to={value}
+    <ThemeProvider theme={theme}>
+      <Box sx={{ bgcolor: "primary.main" }}>
+        <AppBar position="static">
+          <Container maxWidth="x1">
+            <Toolbar disableGutters>
+              <Typography
+                variant="h5"
+                noWrap
+                component="a"
+                href="/"
+                sx={{
+                  mt: 2,
+                  display: { xs: "none", md: "flex" },
+                  fontFamily: "monospace",
+                  fontWeight: 900,
+                  color: "white",
+                }}
               >
-                {label}
-              </Link>
-            ))}
-            <Toggler darkMode={darkMode} handleClick={handleClick}/>
-          </nav>
-          
-          {TABS2?.map(({ label, value }) => (
-          <Link to={value}
-            
-           
-            
-          >
-            <button
-              style={{ backgroundColor: "white" }}
-              class="animate-pulse inline-flex items-center  border-0 py-2 px-4 focus:outline-none hover:bg-green rounded text-base mt-2 md:mt-0"
-            >
-              {label}
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                class="w-4 h-4 ml-1"
-                viewBox="0 0 24 24"
+                <IconButton>
+                  <img src={logo} alt="logo" width={25} height={20}></img>
+                </IconButton>
+                UIET DOCS
+              </Typography>
+
+              <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+                <IconButton
+                  size="large"
+                  aria-label="account of current user"
+                  aria-controls="menu-appbar"
+                  aria-haspopup="true"
+                  onClick={handleOpenNavMenu}
+                >
+                  <MenuIcon />
+                </IconButton>
+                <Menu
+                  id="menu-appbar"
+                  anchorEl={anchorElNav}
+                  anchorOrigin={{
+                    vertical: "bottom",
+                    horizontal: "left",
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: "top",
+                    horizontal: "left",
+                  }}
+                  open={Boolean(anchorElNav)}
+                  onClose={handleCloseNavMenu}
+                  sx={{
+                    display: {
+                      xs: "block",
+                      md: "none",
+                      mr: "2",
+                      color: "black",
+                    },
+                  }}
+                >
+                  {TABS.map(({ label, value }) => (
+                    <MenuItem>
+                      <Link to={value}>{label}</Link>
+                    </MenuItem>
+                  ))}
+                </Menu>
+              </Box>
+              <Typography
+                variant="h5"
+                noWrap
+                component="a"
+                href=""
+                sx={{
+                  mr: 2,
+                  display: { xs: "flex", md: "none" },
+                  flexGrow: 1,
+                  fontFamily: "monospace",
+                  fontWeight: 700,
+                  textDecoration: "none",
+                }}
               >
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </button>
-          </Link>
-          ))}
-        </div>
-      </header>
-    </div>
+                <IconButton>
+                  <img src={logo} alt="logo" width={25} height={20}></img>
+                </IconButton>
+                UIET DOCS
+              </Typography>
+              <Box
+                sx={{
+                  flexGrow: 1,
+                  mr: "2",
+                  display: { xs: "none", md: "flex" },
+                }}
+              >
+                {TABS?.map(({ label, value }) => (
+                  <Link
+                    onClick={handleCloseNavMenu}
+                    class="p-2 mr-3 text-white hover:text-white font-medium"
+                    to={value}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </Box>
+
+              <Stack direction="row" spacing={1.2}>
+                <Toggler darkMode={darkMode} handleClick={handleClick} />
+                {TABS2?.map(({ label, value }) => (
+                  <Link
+                    onClick={handleCloseNavMenu}
+                    class="mr-5 text-white hover:text-white font-medium"
+                    to={value}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </Stack>
+            </Toolbar>
+          </Container>
+        </AppBar>
+      </Box>
+    </ThemeProvider>
   );
-};
-
-
+}
