@@ -2,7 +2,6 @@ import React from "react";
 import logo1 from "../../assets/l1.png";
 import logo2 from "../../assets/l2.png";
 import logo3 from "../../assets/l3.png";
-import Example from "../../containers/modal/pop-up";
 
 
 const Home = () => {
@@ -32,7 +31,6 @@ const Home = () => {
             aria-label="Slide 1"
           ></button>
         </div>
-        <Example/>
         <div className="carousel-inner relative w-full overflow-hidden p-[80%]">
           <div className="carousel-item active relative float-left w-full">
             <img src={logo3} className="block w-full" alt="Motorbike Smoke" />
@@ -79,7 +77,7 @@ const Home = () => {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
- 
+
       <div className="pl-5 pr-5  ">
         <div
           id="modal"
