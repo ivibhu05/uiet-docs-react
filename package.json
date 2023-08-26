@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ivibhu05.github.io",
+  "homepage": "http://uietdocs.me",
   "name": "uiet-docs",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages-clean gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
