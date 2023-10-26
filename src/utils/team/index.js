@@ -4,37 +4,45 @@ import Hemant from '../../assets/hemant.jpeg';
 import Shivam from '../../assets/shivam_uiet.jpeg';
 
 export const TEAM = [
-  {
-    name: 'Dheeraj Pandey',
-    branch: 'Computer Science & Engineering-2019',
-    role: 'Owner & Developer',
-    linkedin: 'https://www.linkedin.com/in/dheerajpandey1/',
-    portfolio: 'https://dcpandey1.github.io/Portfolio/',
-    photo: Dheeraj,
-  },
-  {
-    name: 'Vibhanshu Pandey',
-    branch: 'Computer Science & Engineering-2019',
-    role: 'Owner & Developer',
-    linkedin: 'https://www.linkedin.com/in/ivibhu05/',
-    portfolio: 'https://ivibhu05.github.io/Portfolio/',
-    photo: Vibhanshu,
-  },
-  {
-    name: 'Hemant Singh',
+  // {
+  //   name: 'Dheeraj Pandey',
+  //   branch: 'Computer Science & Engineering-2019',
+  //   role: 'Owner & Developer',
+  //   linkedin: 'https://www.linkedin.com/in/dheerajpandey1/',
+  //   portfolio: 'https://dcpandey1.github.io/Portfolio/',
+  //   photo: Dheeraj,
+  // },
+  // {
+  //   name: 'Vibhanshu Pandey',
+  //   branch: 'Computer Science & Engineering-2019',
+  //   role: 'Owner & Developer',
+  //   linkedin: 'https://www.linkedin.com/in/ivibhu05/',
+  //   portfolio: 'https://ivibhu05.github.io/Portfolio/',
+  //   photo: Vibhanshu,
+  // },
+  // {
+  //   name: 'Hemant Singh',
+  //   branch: 'Computer Science & Engineering-2020',
+  //   role: 'Developer',
+  //   linkedin: ' https://www.linkedin.com/in/hemant2742/',
+  //   portfolio: 'https://hemant2742.netlify.app/',
+  //   photo: Hemant,
+  // },
+  // {
+  //   name: 'Shivam Pandey',
+  //   branch: 'Computer Science & Engineering-2020',
+  //   role: 'Developer',
+  //   linkedin: ' https://www.linkedin.com/in/shivam-pandey-77530a202/',
+  //   portfolio: 'https://starkshiva.me/',
+  //   photo: Shivam,
+  // },
+     {
+    name: 'Ankur Nigam',
     branch: 'Computer Science & Engineering-2020',
     role: 'Developer',
-    linkedin: ' https://www.linkedin.com/in/hemant2742/',
-    portfolio: 'https://hemant2742.netlify.app/',
-    photo: Hemant,
-  },
-  {
-    name: 'Shivam Pandey',
-    branch: 'Computer Science & Engineering-2020',
-    role: 'Developer',
-    linkedin: ' https://www.linkedin.com/in/shivam-pandey-77530a202/',
+    linkedin: 'https://www.linkedin.com/in/ankur-nigam-4b39a0224/',
     portfolio: 'https://starkshiva.me/',
-    photo: Shivam,
+    
   },
 
 ];
